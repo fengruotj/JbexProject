@@ -10,5 +10,15 @@
 <#--下面是test的javascript文件-->
 <script type="text/javascript" src="./js/move-top.js"></script>
 <script type="text/javascript" src="./js/easing.js"></script>
-
 <script defer src="./js/jquery.flexslider.js"></script>
+<#--下面是百度地图封装的库-->
+<script defer src="./js/map.js"></script>
+
+<#--下面是百度地图的javascript包-->
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=fQaZ0KHrLQq5GZtdxoRtCRYl"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/library/TextIconOverlay/1.2/src/TextIconOverlay_min.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/library/MarkerClusterer/1.2/src/MarkerClusterer_min.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/library/CurveLine/1.5/src/CurveLine.min.js"></script>
+<#--百度地图鼠标测距功能-->
+<script type="text/javascript" src="http://api.map.baidu.com/library/DistanceTool/1.2/src/DistanceTool_min.js"></script>
+
