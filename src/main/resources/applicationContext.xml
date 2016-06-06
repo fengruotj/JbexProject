@@ -27,14 +27,19 @@
 
         <property name="mappingLocations">
             <list>
-                <!--<value>classpath:hibernateconf/TAssistantanswers.hbm.xml</value>-->
-                <!--<value>classpath:hibernateconf/TAssistantquestions.hbm.xml</value>-->
-                <!--<value>classpath:hibernateconf/TDiscuss.hbm.xml</value>-->
-                <!--<value>classpath:hibernateconf/TDiscusslikes.hbm.xml</value>-->
-                <!--<value>classpath:hibernateconf/TOrder.hbm.xml</value>-->
-                <!--<value>classpath:hibernateconf/TReplay.hbm.xml</value>-->
-                <!--<value>classpath:hibernateconf/TUser.hbm.xml</value>-->
-                <!--<value>classpath:hibernateconf/Administrator.hbm.xml</value>-->
+                <value>classpath:hibernateconf/TUser.hbm.xml</value>
+                <value>classpath:hibernateconf/TFriendrequest.hbm.xml</value>
+                <value>classpath:hibernateconf/TGroupfamily.hbm.xml</value>
+                <value>classpath:hibernateconf/TGroupstudent.hbm.xml</value>
+                <value>classpath:hibernateconf/TGroupfriends.hbm.xml</value>
+                <value>classpath:hibernateconf/TJbrxfriend.hbm.xml</value>
+                <value>classpath:hibernateconf/TMessagebean.hbm.xml</value>
+                <value>classpath:hibernateconf/TJbrxinfo.hbm.xml</value>
+                <value>classpath:hibernateconf/TMyattention.hbm.xml</value>
+                <value>classpath:hibernateconf/TMessageflag.hbm.xml</value>
+                <value>classpath:hibernateconf/TMycollections.hbm.xml</value>
+                <value>classpath:hibernateconf/TPersonaldynamic.hbm.xml</value>
+                <value>classpath:hibernateconf/TPublicinfo.hbm.xml</value>
             </list>
         </property>
 
