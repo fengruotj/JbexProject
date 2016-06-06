@@ -13,34 +13,34 @@
 <!--<![endif]-->
 <head>
 
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
     <!-- <meta name="viewport" content="width=device-width, initial-scale=0.3, maximum-scale=0.3" />  -->
 
     <!-- 鏂版氮寰崥 -->
-    <meta property="wb:webmaster" content="5195886dc3a637ba" />
+    <meta property="wb:webmaster" content="5195886dc3a637ba"/>
 
     <!-- 寮哄埗360娴忚鍣ㄧ敤WebKit鍐呮牳 -->
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
 
-    <meta name="keywords" content="" />
+    <meta name="keywords" content=""/>
     <meta name="description" content=""/>
 
     <title>油气大数据平台</title>
 
-    <link rel="profile" href="http://gmpg.org/xfn/11" />
-    <link rel="shortcut icon" href="" />
-    <link rel="stylesheet" type="text/css" media="all" href="./css/extra.min.css" />
+    <link rel="profile" href="http://gmpg.org/xfn/11"/>
+    <link rel="shortcut icon" href=""/>
+    <link rel="stylesheet" type="text/css" media="all" href="./css/extra.min.css"/>
 
     <script type="text/javascript" src="./libs/jquery/jquery-2.0.0.min.js"></script>
 
     <!-- Add fancyBox main JS and CSS files -->
-    <link rel="stylesheet" type="text/css" href="./css/jquery.fancybox.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./css/jquery.fancybox.css" media="screen"/>
 
     <!-- <link rel="stylesheet" type="text/css" media="all" href="http://lbs.amap.com/wp-content/themes/apiwebsite/style.css" /> -->
-    <link rel="stylesheet" type="text/css" media="all" href="./css/style.css" />
-    <link rel="stylesheet" type="text/css" media="all" href="./css/homepage.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="./css/style.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="./css/homepage.css"/>
 
 
     <!--[if lt IE 9]>
@@ -85,7 +85,7 @@
             <a class="" href="javascript:void(0);">
                 快速入门
             </a>
-            <ul  class="">
+            <ul class="">
                 <li class="columns_1">
                     <strong>功能介绍</strong>
                     <a href="" style="">
@@ -107,7 +107,7 @@
 </header><!-- header -->
 
 <div class="page_wrapper">
-    <link rel="stylesheet" type="text/css" media="all" href="./css/view.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="./css/view.css"/>
 
     <div class="view_wrapper">
         <div class="view_top">

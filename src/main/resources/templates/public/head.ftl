@@ -1,7 +1,7 @@
 <!-- 下面是前端页面的css -->
 <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.css">
 <link rel="stylesheet" href="./css/stylebootstrap.css">
-<link rel="stylesheet" href="./css/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="./css/flexslider.css" type="text/css" media="screen"/>
 
 <#--下面是前段页面javascript-->
 <script type="text/javascript" src="./libs/jquery/jquery-2.0.0.min.js"></script>
