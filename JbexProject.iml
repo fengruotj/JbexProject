@@ -92,9 +92,6 @@
     <orderEntry type="library" name="Maven: org.hibernate.common:hibernate-commons-annotations:4.0.1.Final" level="project" />
     <orderEntry type="library" name="Maven: javassist:javassist:3.12.1.GA" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-spatial:4.0" level="project" />
-    <orderEntry type="library" name="Maven: postgresql:postgresql:8.4-701.jdbc4" level="project" />
-    <orderEntry type="library" name="Maven: org.postgis:postgis-jdbc:1.5.2" level="project" />
-    <orderEntry type="library" name="Maven: com.vividsolutions:jts:1.13" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-ehcache:4.0.1.Final" level="project" />
     <orderEntry type="library" name="Maven: net.sf.ehcache:ehcache-core:2.4.3" level="project" />
   </component>
