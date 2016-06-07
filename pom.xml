@@ -77,12 +77,12 @@
       <version>${hibernate.version}</version>
     </dependency>
 
-    <!--Hibernate 空间数据库-->
-    <dependency>
-      <groupId>org.hibernate</groupId>
-      <artifactId>hibernate-spatial</artifactId>
-      <version>4.0</version>
-    </dependency>
+    <!--&lt;!&ndash;Hibernate 空间数据库&ndash;&gt;-->
+    <!--<dependency>-->
+      <!--<groupId>org.hibernate</groupId>-->
+      <!--<artifactId>hibernate-spatial</artifactId>-->
+      <!--<version>4.0</version>-->
+    <!--</dependency>-->
 
     <!--Hibernate 二级缓存-->
     <dependency>
@@ -117,5 +117,20 @@
     </pluginRepository>
   </pluginRepositories>
 
-
+  <!--&lt;!&ndash; add repositories for JTS and Hibernate Spatial and Hibernate (JBoss) &ndash;&gt;-->
+  <!--<repositories>-->
+    <!--<repository>-->
+      <!--<id>OSGEO GeoTools repo</id>-->
+      <!--<url>http://download.osgeo.org/webdav/geotools</url>-->
+    <!--</repository>-->
+    <!--<repository>-->
+      <!--<id>Hibernate Spatial repo</id>-->
+      <!--<url>http://www.hibernatespatial.org/repository</url>-->
+    <!--</repository>-->
+    <!--&lt;!&ndash; add JBOSS repository for easy access to Hibernate libraries &ndash;&gt;-->
+    <!--<repository>-->
+      <!--<id>JBOSS</id>-->
+      <!--<url>https://repository.jboss.org/nexus/content/repositories/releases/</url>-->
+    <!--</repository>-->
+  <!--</repositories>-->
 </project>

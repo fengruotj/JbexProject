@@ -18,4 +18,9 @@ public class WebController extends BaseController{
     public String test(){
         return "test";
     }
+
+    @RequestMapping("/map")
+    public String map(){
+        return "map";
+    }
 }
