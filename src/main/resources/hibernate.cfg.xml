@@ -6,7 +6,7 @@
 
 <session-factory>
 	<property name="dialect">
-		org.hibernate.spatial.dialect.mysql.MySQLSpatialDialect
+		org.hibernate.dialect.MySQL5Dialect
 	</property>
 
 	<!-- 控制台显示SQL -->
