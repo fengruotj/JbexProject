@@ -12,14 +12,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     function hideURLbar() {
         window.scrollTo(0, 1);
     } </script>
-<#--<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />-->
-<#--<link href="css/style.css" rel='stylesheet' type='text/css' />-->
-<#--<script src="js/jquery.min.js"></script>-->
-<#--<script src="js/bootstrap.js"></script>-->
+
 <#include "public/head.ftl">
-    <!---- start-smoth-scrolling---->
-<#--<script type="text/javascript" src="js/move-top.js"></script>-->
-<#--<script type="text/javascript" src="js/easing.js"></script>-->
     <script type="text/javascript">
         jQuery(document).ready(function ($) {
             $(".scroll").click(function (event) {
@@ -44,12 +38,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="./images/temp/logo.png" alt=""/></a>
+                <a class="navbar-brand" href="/test"><img src="./images/temp/logo.png" alt=""/></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html" class="hvr-bounce-to-top">Home <span class="sr-only">(current)</span></a>
+                    <li class="active"><a href="/map" class="hvr-bounce-to-top">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li><a href="about.html" class="hvr-bounce-to-top">About</a></li>
                     <li><a href="services.html" class="hvr-bounce-to-top">Services</a></li>
@@ -61,6 +55,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div><!-- /.container-fluid -->
     </nav>
 </div>
+
+
 <!--end-header-->
 <!--start-banner-->
 <div class="banner">
@@ -113,8 +109,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!--end-banner-->
 <!--FlexSlider-->
-<#--<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />-->
-<#--<script defer src="js/jquery.flexslider.js"></script>-->
+
 <script type="text/javascript">
     $(function () {
         SyntaxHighlighter.all();
