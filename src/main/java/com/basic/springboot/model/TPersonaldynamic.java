@@ -1,5 +1,7 @@
 package com.basic.springboot.model;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.sql.Timestamp;
 
 /**
@@ -17,6 +19,7 @@ public class TPersonaldynamic implements java.io.Serializable {
 	private String detail;
 	private String picture1;
 	private String picture2;
+	@DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME,pattern = "yyyy-mm-dd hh:mm:ss")
 	private Timestamp time;
 
 	// Constructors

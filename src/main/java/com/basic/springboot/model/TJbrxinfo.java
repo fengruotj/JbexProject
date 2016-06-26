@@ -1,8 +1,9 @@
 package com.basic.springboot.model;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.sql.Timestamp;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.Date;
 
 /**
  * TJbrxinfo entity. @author MyEclipse Persistence Tools
@@ -18,13 +19,12 @@ public class TJbrxinfo implements java.io.Serializable {
 	private Double dotY;
 	private String title;
 	private String detail;
-	private Timestamp time;
+	@DateTimeFormat(pattern = "yyyy-mm-dd hh:mm:ss")
+	private Date time;
 	private String label;
 	private String picture1;
 	private String picture2;
 	private Integer size;
-	private Set TMycollectionses = new HashSet(0);
-	private Set TJbrxfriends = new HashSet(0);
 
 	// Constructors
 
@@ -48,8 +48,7 @@ public class TJbrxinfo implements java.io.Serializable {
 	/** full constructor */
 	public TJbrxinfo(TUser TUser, Double dotX, Double dotY, String title,
 			String detail, Timestamp time, String label, String picture1,
-			String picture2, Integer size, Set TMycollectionses,
-			Set TJbrxfriends) {
+			String picture2, Integer size ) {
 		this.TUser = TUser;
 		this.dotX = dotX;
 		this.dotY = dotY;
@@ -60,8 +59,6 @@ public class TJbrxinfo implements java.io.Serializable {
 		this.picture1 = picture1;
 		this.picture2 = picture2;
 		this.size = size;
-		this.TMycollectionses = TMycollectionses;
-		this.TJbrxfriends = TJbrxfriends;
 	}
 
 	// Property accessors
@@ -114,11 +111,11 @@ public class TJbrxinfo implements java.io.Serializable {
 		this.detail = detail;
 	}
 
-	public Timestamp getTime() {
+	public Date getTime() {
 		return this.time;
 	}
 
-	public void setTime(Timestamp time) {
+	public void setTime(Date time) {
 		this.time = time;
 	}
 
@@ -154,20 +151,5 @@ public class TJbrxinfo implements java.io.Serializable {
 		this.size = size;
 	}
 
-	public Set getTMycollectionses() {
-		return this.TMycollectionses;
-	}
-
-	public void setTMycollectionses(Set TMycollectionses) {
-		this.TMycollectionses = TMycollectionses;
-	}
-
-	public Set getTJbrxfriends() {
-		return this.TJbrxfriends;
-	}
-
-	public void setTJbrxfriends(Set TJbrxfriends) {
-		this.TJbrxfriends = TJbrxfriends;
-	}
 
 }

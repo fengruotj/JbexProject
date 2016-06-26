@@ -1,5 +1,7 @@
 package com.basic.springboot.model;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.sql.Timestamp;
 
 /**
@@ -16,6 +18,7 @@ public class TPublicinfo implements java.io.Serializable {
 	private Double dotY;
 	private String title;
 	private String detail;
+	@DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME,pattern = "yyyy-mm-dd hh:mm:ss")
 	private Timestamp time;
 	private String label;
 	private String picture1;
