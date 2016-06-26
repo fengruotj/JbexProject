@@ -30,7 +30,7 @@ public class HibernateTest {
     public void test(){
         List<TUser> userList=tUserDAO.findList("from TUser");
         for(TUser user: userList){
-            System.out.println(user.getUserName());
+            System.out.println(user.getPersonSignature());
         }
     }
 

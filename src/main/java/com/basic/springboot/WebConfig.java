@@ -2,7 +2,6 @@ package com.basic.springboot;
 
 import org.springframework.boot.context.embedded.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.orm.hibernate4.support.OpenSessionInViewFilter;
 import org.springframework.web.filter.CharacterEncodingFilter;
@@ -14,7 +13,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
  * Created by dell-pc on 2016/4/19.
  */
 @Configuration
-@ComponentScan
 @EnableWebMvc
 public class WebConfig extends WebMvcConfigurerAdapter {
 
@@ -56,7 +54,7 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         characterEncodingFilter.setForceEncoding(true);
         registration.setFilter(characterEncodingFilter);
         registration.addUrlPatterns("/*");
-        registration.addInitParameter("encoding","utf-8");
+        registration.addInitParameter("encoding","UTF-8");
         registration.setName("encodingFilter");
         return registration;
     }
