@@ -84,16 +84,16 @@
         <span class="caret"></span>
     </button>
     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-        <li role="presentation" onclick="dida()">
+        <li role="presentation" >
             <a id="dida" role="menuitem" tabindex="-1" href="#">中国地质大学</a>
         </li>
         <li role="presentation" >
             <a id="huake" role="menuitem" tabindex="-1" href="#">华中科技大学</a>
         </li>
-        <li role="presentation" onclick="wuli()">
+        <li role="presentation" >
             <a id="wuli" role="menuitem" tabindex="-1" href="#">武汉理工大学</a>
         </li>
-        <li role="presentation" onclick="huashi()">
+        <li role="presentation" >
             <a id="huashi"  role="menuitem" tabindex="-1" href="#">华中师范大学</a>
         </li>
         <li role="presentation" onclick="wuda()">
