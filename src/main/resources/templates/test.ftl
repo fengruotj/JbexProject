@@ -43,7 +43,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="/map" class="hvr-bounce-to-top">Home <span class="sr-only">(current)</span></a>
+                    <li class="active"><a href="/send_map_map" class="hvr-bounce-to-top">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li><a href="about.html" class="hvr-bounce-to-top">About</a></li>
                     <li><a href="services.html" class="hvr-bounce-to-top">Services</a></li>
