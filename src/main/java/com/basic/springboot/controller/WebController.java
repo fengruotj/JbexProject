@@ -31,4 +31,10 @@ public class WebController extends BaseController{
     public String test2(){
         return "谭杰";
     }
+    @RequestMapping("/map")
+    public String map(){ return "map";}
+
+    @RequestMapping("/try")
+    public String trydemo(){ return "try";}
+
 }

@@ -4,6 +4,7 @@
 //为地图添加各个控件 city为定位到中心城市  num为放大级别一般为12
 
 function addControlMap(map,city,num){
+    //var map = new BMap.Map('allmap');
     map.centerAndZoom(city, num);
     var mapType1 = new BMap.MapTypeControl({mapTypes: [BMAP_NORMAL_MAP,BMAP_HYBRID_MAP]});
     var mapType2 = new BMap.MapTypeControl({anchor: BMAP_ANCHOR_TOP_LEFT});
