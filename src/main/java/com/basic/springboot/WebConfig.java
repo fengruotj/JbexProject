@@ -1,11 +1,13 @@
 package com.basic.springboot;
 
+import com.basic.springboot.interceptor.UserSecurityInterceptor;
 import org.springframework.boot.context.embedded.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.orm.hibernate4.support.OpenSessionInViewFilter;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
@@ -32,18 +34,22 @@ public class WebConfig extends WebMvcConfigurerAdapter {
                 .addResourceLocations("classpath:/static/libs/");
         registry.addResourceHandler("/images/**")
                 .addResourceLocations("classpath:/static/images/");
+        registry.addResourceHandler("/plugins/**")
+                .addResourceLocations("classpath:/static/plugins/");
+        registry.addResourceHandler("/userimages/**")
+                .addResourceLocations("classpath:/static/userimages/");
     }
 
-//    /**
-//     * 注册拦截器
-//     * @param registry
-//     */
-//    @Override
-//    public void addInterceptors(InterceptorRegistry registry) {
-////        registry.addInterceptor(new LocaleInterceptor());
-////        registry.addInterceptor(new ThemeInterceptor()).addPathPatterns("/**").excludePathPatterns("/admin/**");
-//        registry.addInterceptor(new AdminSecurityInterceptor()).addPathPatterns("/manage*/**");
-//    }
+    /**
+     * 注册拦截器
+     * @param registry
+     */
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+//        registry.addInterceptor(new LocaleInterceptor());
+//        registry.addInterceptor(new ThemeInterceptor()).addPathPatterns("/**").excludePathPatterns("/admin/**");
+        registry.addInterceptor(new UserSecurityInterceptor()).addPathPatterns("/send_user_*");
+    }
 
     // 用于处理编码问题
     @Bean
