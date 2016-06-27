@@ -99,7 +99,7 @@
                     <div class="main-box mb-red">
                         <a href="#">
                             <i class="fa fa-bolt fa-5x"></i>
-                            <h5>Zero Issues</h5>
+                            <h5>社团信息发布</h5>
                         </a>
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                     <div class="main-box mb-dull">
                         <a href="#">
                             <i class="fa fa-plug fa-5x"></i>
-                            <h5>40 Task In Check</h5>
+                            <h5>学校信息发布</h5>
                         </a>
                     </div>
                 </div>
@@ -115,7 +115,7 @@
                     <div class="main-box mb-pink">
                         <a href="#">
                             <i class="fa fa-dollar fa-5x"></i>
-                            <h5>200K Pending</h5>
+                            <h5>信息查收</h5>
                         </a>
                     </div>
                 </div>
@@ -135,32 +135,32 @@
 
                                         <div class="col-md-10 col-md-offset-1">
 
-                                            <h4><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing elit onec molestie non sem vel condimentum. <i class="fa fa-quote-right"></i></h4>
+                                            <h4><i class="fa fa-quote-left"></i>今晚将在北宗101集体练琴！请社员七点半准时参加！ <i class="fa fa-quote-right"></i></h4>
                                             <div class="user-img pull-right">
                                                 <img src="images/user.gif" alt="" class="img-u image-responsive" />
                                             </div>
-                                            <h5 class="pull-right"><strong class="c-black">Lorem Dolor</strong></h5>
+                                            <h5 class="pull-right"><strong class="c-black">吉他社社长</strong></h5>
                                         </div>
                                     </div>
                                     <div class="item">
                                         <div class="col-md-10 col-md-offset-1">
 
-                                            <h4><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing elit onec molestie non sem vel condimentum. <i class="fa fa-quote-right"></i></h4>
+                                            <h4><i class="fa fa-quote-left"></i>请合唱团的所有团员今晚在大活二楼开会。<i class="fa fa-quote-right"></i></h4>
                                             <div class="user-img pull-right">
                                                 <img src="images/user.png" alt="" class="img-u image-responsive" />
                                             </div>
-                                            <h5 class="pull-right"><strong class="c-black">Lorem Dolor</strong></h5>
+                                            <h5 class="pull-right"><strong class="c-black">合唱团负责人</strong></h5>
                                         </div>
 
                                     </div>
                                     <div class="item">
                                         <div class="col-md-10 col-md-offset-1">
 
-                                            <h4><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipiscing  Lorem ipsum dolor sit amet, consectetur adipiscing elit onec molestie non sem vel condimentum. <i class="fa fa-quote-right"></i></h4>
+                                            <h4><i class="fa fa-quote-left"></i>今晚到荷花池旁一起练习~ <i class="fa fa-quote-right"></i></h4>
                                             <div class="user-img pull-right">
                                                 <img src="images/user.gif" alt="" class="img-u image-responsive" />
                                             </div>
-                                            <h5 class="pull-right"><strong class="c-black">Lorem Dolor</strong></h5>
+                                            <h5 class="pull-right"><strong class="c-black">笛箫社</strong></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -220,35 +220,35 @@
 
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Recent Chat History
+                            最新学校活动
                         </div>
                         <div class="panel-body" style="padding: 0px;">
                             <div class="chat-widget-main">
 
 
                                 <div class="chat-widget-left">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    6.24号教三101数学讲座
                                 </div>
                                 <div class="chat-widget-name-left">
-                                    <h4>Amanna Seiar</h4>
+                                    <h4>王后雄</h4>
                                 </div>
                                 <div class="chat-widget-right">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    6.23号北综110英语辅导
                                 </div>
                                 <div class="chat-widget-name-right">
-                                    <h4>Donim Cruseia </h4>
+                                    <h4>刘老师 </h4>
                                 </div>
                                 <div class="chat-widget-left">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    6.21号西区体育馆信工篮球联赛
                                 </div>
                                 <div class="chat-widget-name-left">
-                                    <h4>Amanna Seiar</h4>
+                                    <h4>团学联</h4>
                                 </div>
                                 <div class="chat-widget-right">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    6.19号弘毅堂讲座
                                 </div>
                                 <div class="chat-widget-name-right">
-                                    <h4>Donim Cruseia </h4>
+                                    <h4>许德华 </h4>
                                 </div>
                             </div>
                         </div>
@@ -274,13 +274,7 @@
                 <div class="col-md-8">
                     <div class="list-group">
                         <a href="#" class="list-group-item active">
-                            <h4 class="list-group-item-heading">LIST GROUP HEADING</h4>
-                            <p class="list-group-item-text" style="line-height: 30px;">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            </p>
+                            <h4 class="list-group-item-heading">返回顶部</h4>
                         </a>
                     </div>
                     <br />
@@ -292,225 +286,89 @@
                 <div class="col-md-4">
                     <div class="panel panel-info">
                         <div class="panel-heading">
-                            <i class="fa fa-bell fa-fw"></i>Notifications Panel
+                            <i class="fa fa-bell fa-fw"></i>通知
                         </div>
 
                         <div class="panel-body">
                             <div class="list-group">
 
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-twitter fa-fw"></i>3 New Followers
+                                    <i class="fa fa-twitter fa-fw"></i>3个新粉丝
                                     <span class="pull-right text-muted small"><em>12 minutes ago</em>
                                     </span>
                                 </a>
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-envelope fa-fw"></i>Message Sent
+                                    <i class="fa fa-envelope fa-fw"></i>信息发送
                                     <span class="pull-right text-muted small"><em>27 minutes ago</em>
                                     </span>
                                 </a>
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-tasks fa-fw"></i>New Task
+                                    <i class="fa fa-tasks fa-fw"></i>新信息
                                     <span class="pull-right text-muted small"><em>43 minutes ago</em>
                                     </span>
                                 </a>
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-upload fa-fw"></i>Server Rebooted
+                                    <i class="fa fa-upload fa-fw"></i>服务端口
                                     <span class="pull-right text-muted small"><em>11:32 AM</em>
                                     </span>
                                 </a>
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-bolt fa-fw"></i>Server Crashed!
+                                    <i class="fa fa-bolt fa-fw"></i>请求成功
                                     <span class="pull-right text-muted small"><em>11:13 AM</em>
                                     </span>
                                 </a>
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-warning fa-fw"></i>Server Not Responding
+                                    <i class="fa fa-warning fa-fw"></i>请求未响应
                                     <span class="pull-right text-muted small"><em>10:57 AM</em>
                                     </span>
                                 </a>
 
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-bolt fa-fw"></i>Server Crashed!
+                                    <i class="fa fa-bolt fa-fw"></i>请求成功
                                     <span class="pull-right text-muted small"><em>11:13 AM</em>
                                     </span>
                                 </a>
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-warning fa-fw"></i>Server Not Responding
+                                    <i class="fa fa-warning fa-fw"></i>请求未响应
                                     <span class="pull-right text-muted small"><em>10:57 AM</em>
                                     </span>
                                 </a>
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-shopping-cart fa-fw"></i>New Order Placed
+                                    <i class="fa fa-shopping-cart fa-fw"></i>新消息
                                     <span class="pull-right text-muted small"><em>9:49 AM</em>
                                     </span>
                                 </a>
                             </div>
                             <!-- /.list-group -->
-                            <a href="#" class="btn btn-info btn-block">View All Alerts</a>
+                            <a href="#" class="btn btn-info btn-block">查看全部</a>
                         </div>
 
                     </div>
                 </div>
             </div>
             <!--/.Row-->
-            <hr />
-            <div class="row">
-
-                <div class="col-md-8">
-
-                    <div class="table-responsive">
-                        <table class="table table-striped table-bordered table-hover">
-                            <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>First Name</th>
-                                <th>Last Name</th>
-                                <th>Username</th>
-                                <th>User No.</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td><span class="label label-danger">Mark</span></td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
-                                <td><span class="label label-info">100090</span></td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
-                                <td>100090</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Larry</td>
-                                <td><span class="label label-danger">the Bird</span> </td>
-                                <td>@twitter</td>
-                                <td>100090</td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td><span class="label label-success">Mark</span></td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
-                                <td><span class="label label-info">100090</span></td>
-                            </tr>
-
-                            <tr>
-                                <td>5</td>
-                                <td>Larry</td>
-                                <td><span class="label label-primary">the Bird</span></td>
-                                <td>@twitter</td>
-                                <td>100090</td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
-                                <td><span class="label label-warning">Jacob</span></td>
-                                <td><span class="label label-success">Thornton</span></td>
-                                <td>@fat</td>
-                                <td><span class="label label-danger">100090</span></td>
-                            </tr>
-                            <tr>
-                                <td>7</td>
-                                <td>Larry</td>
-                                <td><span class="label label-primary">the Bird</span></td>
-                                <td>@twitter</td>
-                                <td>100090</td>
-                            </tr>
-                            <tr>
-                                <td>8</td>
-                                <td><span class="label label-warning">Jacob</span></td>
-                                <td><span class="label label-success">Thornton</span></td>
-                                <td>@fat</td>
-                                <td><span class="label label-danger">100090</span></td>
-                            </tr>
-                            <tr>
-                                <td>9</td>
-                                <td><span class="label label-success">Mark</span></td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
-                                <td><span class="label label-info">100090</span></td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
 
 
 
 
-                </div>
-                <div class="col-md-4">
-                    <div class="panel panel-success">
-                        <div class="panel-heading">
-                            Recent Comments Example
-                        </div>
-                        <div class="panel-body">
-                            <ul class="media-list">
 
-                                <li class="media">
-
-                                    <div class="media-body">
-
-                                        <div class="media">
-                                            <a class="pull-left" href="#">
-                                                <img class="media-object img-circle img-comments" src="images/user.png" />
-                                            </a>
-                                            <div class="media-body">
-                                                <h4 class="media-heading">Nulla gravida vitae  </h4>
-                                                Donec sit amet ligula enim. Duis vel condimentum massa.
-
-                                                <!-- Nested media object -->
-                                                <div class="media">
-                                                    <a class="pull-left" href="#">
-                                                        <img class="media-object img-circle img-comments" src="images/user.gif" />
-                                                    </a>
-                                                    <div class="media-body">
-                                                        <h4 class="media-heading">Amet ligula enim</h4>
-                                                        Donec sit amet ligula enim .
-                                                    </div>
-                                                </div>
-                                                <div class="media">
-                                                    <a class="pull-left" href="#">
-                                                        <img class="media-object img-circle img-comments" src="images/user.png" />
-                                                    </a>
-                                                    <div class="media-body">
-                                                        <h4 class="media-heading">Donec t ligula enim</h4>
-                                                        Donec sit amet  amet ligula enim .
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--/.Row-->
-            <hr />
             <div class="row" style="padding-bottom: 100px; `">
                 <div class="col-md-6">
                     <div id="comments-sec">
-                        <h4><strong>Compose Support Ticket </strong></h4>
+                        <h4><strong>社团认证</strong></h4>
                         <hr />
 
 
                         <div class="form-group  ">
-                            <label>Please Write a Subject Line</label>
+                            <label>请输入社团名字</label>
                             <input type="text" class="form-control" required="required" placeholder="Enter Subject Of Ticket" />
                         </div>
                         <div class="form-group ">
-                            <label>Please Enter Issue</label>
+                            <label>请输入社团简介</label>
                             <textarea class="form-control" rows="8"></textarea>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-success">Compose &amp; Send Ticket</button>
+                            <button type="submit" class="btn btn-success">提交</button>
                         </div>
                     </div>
 
@@ -520,24 +378,20 @@
                             <span class="icon-box bg-color-black">
                                 <i class="fa fa-bicycle"></i>
                             </span>
+
+
                         <div class="text-box">
-                            <p class="main-text">52 Important Issues to Fix </p>
-                            <p>Please fix these issues to work smooth</p>
-                            <p>Time Left: 30 mins</p>
+                            <p class="main-text">社团认证须知</p>
                             <hr />
                             <p>
                                     <span class=" color-bottom-txt"><i class="fa fa-edit"></i>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit gthn.
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit gthn.
-                               Lorem ipsum dolor sit amet, consectetur adipiscing elit gthn.
+                                        社团简介不少于50字，并且留下社团负责人的姓名及电话 . 如 （夏浩，13511111111）
 
                                     </span>
 
-
                             </p>
                             <hr />
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit gthn.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit gthn.
+                            请输入真实的社团信息！
                         </div>
                     </div>
                 </div>
