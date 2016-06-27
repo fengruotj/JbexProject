@@ -31,4 +31,22 @@ public class TPublicinfoDAO extends BaseHibernateDAOImpl<TPublicinfo> {
     public List<TPublicinfo> getPublicinfoBySchool(){
         return this.findList("from TPublicinfo public where public.TUser.securityControl=?",2);
     }
+
+    @SuppressWarnings("unchecked")
+    public List<TPublicinfo> queryPublicInfoPageByUser(TUser user,String title, int page, int size){
+        return getSession().createQuery("FROM TPublicinfo p  WHERE p.title LIKE :title and p.TUser=:user ORDER BY p.id")
+                .setString("title","%"+title +"%")
+                .setParameter("user",user)
+                .setFirstResult((page-1)*size)
+                .setMaxResults(size)
+                .list();
+    }
+
+    public long getCount(TUser user,String title) {
+        // TODO 自动生成的方法存根
+        return (long) getSession().createQuery("select count(p) FROM TPublicinfo p  WHERE p.title LIKE :title and p.TUser=:user ORDER BY p.id")
+                .setString("title","%"+title +"%")
+                .setParameter("user",user)
+                .uniqueResult();
+    }
 }

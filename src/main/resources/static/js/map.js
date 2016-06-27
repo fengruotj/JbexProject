@@ -135,7 +135,7 @@ function addClickHandler(map,content,marker){
     var opts = {
         width : 300,     // 信息窗口宽度
         height: 100,     // 信息窗口高度
-        title : "站台信息" , // 信息窗口标题
+        title : "标记信息" , // 信息窗口标题
         enableMessage:true//设置允许信息窗发送短息
     };
 

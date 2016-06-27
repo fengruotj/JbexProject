@@ -8,4 +8,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class TJbrxfriendDAO extends BaseHibernateDAOImpl<TJbrxfriend> {
 	private static final Logger log = LoggerFactory.getLogger(TJbrxfriendDAO.class);
+
 }

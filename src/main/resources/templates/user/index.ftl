@@ -26,7 +26,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">智慧校园</a>
+            <a class="navbar-brand" href="/send_user_index">智慧校园</a>
         </div>
 
         <div class="header-right">
@@ -56,7 +56,7 @@
 
 
                 <li>
-                    <a class="active-menu" href="#"><i class="fa fa-dashboard "></i>控制面板</a>
+                    <a class="active-menu" href="/send_user_index"><i class="fa fa-dashboard "></i>控制面板</a>
                 </li>
                 <li>
                     <a href="#"><i class="fa fa-desktop "></i>结伴而行<span class="fa arrow"></span></a>
@@ -76,7 +76,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="send_"><i class="fa fa-flash "></i>我的收藏</a>
+                    <a href="send_user_collectinfo"><i class="fa fa-flash "></i>我关注的好友</a>
 
                 </li>
 
@@ -89,7 +89,16 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="page-head-line">控制面板</h1>
-                    <h1 class="page-subhead-line">This is dummy text , you can replace it with your original text. </h1>
+                    <h1 class="page-subhead-line">
+                    <label class="label label-primary">欢迎您！${user.userNickname}</label>
+                    <#if user.securityControl==0>
+                            <label class="label label-primary">您的权限为普通用户</label>
+                        <#elseif user.securityControl==1>
+                            <label class="label label-primary">您的权限为社团用户</label>
+                        <#else >
+                            <label class="label label-primary">您的权限为学校用户</label>
+                    </#if>
+                    </h1>
 
                 </div>
             </div>
