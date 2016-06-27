@@ -29,7 +29,7 @@
                 <comment>细节</comment>
             </column>
         </property>
-        <property name="time" type="java.sql.Timestamp">
+        <property name="time" type="java.util.Date">
             <column name="time" length="19" not-null="true">
                 <comment>发布时间</comment>
             </column>
@@ -52,17 +52,5 @@
         <property name="size" type="java.lang.Integer">
             <column name="size" not-null="true" />
         </property>
-        <set name="TMycollectionses" inverse="true">
-            <key>
-                <column name="collection_id" not-null="true" />
-            </key>
-            <one-to-many class="com.basic.springboot.model.TMycollections" />
-        </set>
-        <set name="TJbrxfriends" inverse="true">
-            <key>
-                <column name="jbrxinfo_id" not-null="true" />
-            </key>
-            <one-to-many class="com.basic.springboot.model.TJbrxfriend" />
-        </set>
     </class>
 </hibernate-mapping>
