@@ -3,7 +3,6 @@
 <html>
 <head>
 <#include "../public/managehead.ftl">
-    <title>My FTL starting page</title>
     <STYLE>
         body{
             background: #ebebeb;
@@ -155,7 +154,7 @@
             <DIV class="initial_right_hand" id="right_hand">
             </DIV></DIV>
         <#--form-->
-        <form action=/admin/login" method="post">
+        <form action="/admin/login" method="post">
             <P style="padding: 30px 0px 10px; position: relative;">
                 <SPAN class="u_logo"></SPAN>
                 <input class="ipt" type="text" name="username" placeholder="请输入用户名" >

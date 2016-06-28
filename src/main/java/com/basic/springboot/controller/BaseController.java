@@ -1,9 +1,6 @@
 package com.basic.springboot.controller;
 
-import com.basic.springboot.dao.TJbrxinfoDAO;
-import com.basic.springboot.dao.TPersonaldynamicDAO;
-import com.basic.springboot.dao.TPublicinfoDAO;
-import com.basic.springboot.dao.TUserDAO;
+import com.basic.springboot.dao.*;
 import com.basic.springboot.util.ServiceUtil;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -30,4 +27,6 @@ public class BaseController {
     protected TPublicinfoDAO publicinfoDAO;
     @Autowired
     protected ServiceUtil serviceUtil;
+    @Autowired
+    protected AdministratorDAO administratorDAO;
 }

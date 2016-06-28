@@ -40,6 +40,7 @@
                 <value>classpath:hibernateconf/TMycollections.hbm.xml</value>
                 <value>classpath:hibernateconf/TPersonaldynamic.hbm.xml</value>
                 <value>classpath:hibernateconf/TPublicinfo.hbm.xml</value>
+                <value>classpath:hibernateconf/Administrator.hbm.xml</value>
             </list>
         </property>
 

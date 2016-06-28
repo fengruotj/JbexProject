@@ -3,7 +3,7 @@
 <#include "../public/managehead.ftl">
 <html>
 <head>
-    <title>旅游管理系统</title>
+    <title>智慧校园后台管理系统</title>
     <style type="text/css">
         #menu {
             width: 200px;
@@ -61,10 +61,10 @@
 </head>
 
 <body class="easyui-layout">
-<div data-options="region:'north',title:'欢迎来到旅游系统',split:true" style="height:80px;">
+<div data-options="region:'north',title:'欢迎来到智慧校园后台管理系统',split:true" style="height:80px;">
     <div class="demo-info">
         <div class="demo-tip icon-tip"></div>
-        <div>欢迎${admin.name}来到旅游后台管理系统</div>
+        <div>欢迎${admin.name}来到智慧校园后台管理系统</div>
     </div>
 </div>
 <!-- 此处显示系统菜单 -->
@@ -73,9 +73,7 @@
     <div id="menu" class="easyui-accordion"  data-options="fit:true">
         <div title="用户信息操作" data-options="iconCls:'icon-ok'">
             <ul>
-                <li><a title="${tour}/manage_user_queryuser">查看用户信息</a></li>
-                <li><a title="send_section_querysection.action">二</a></li>
-                <li><a title="send_road_bussearch.action">三</a></li>
+                <li><a title="/send_manage_queryuser">查看用户信息</a></li>
             </ul>
         </div>
         <div title="其他操作" data-options="iconCls:'icon-ok'">

@@ -98,6 +98,17 @@ function addMakreOnMap(longitude,latitude,content,map){
     return marker;
 }
 
+
+//画标记
+function addMakreOnMapByPicture(longitude,latitude,content,map,pictureUrl){
+    var myIcon = new BMap.Icon(pictureUrl, new BMap.Size(300,157));
+    var point=new BMap.Point(longitude,latitude);
+    var marker = new BMap.Marker(point,{icon:myIcon});  // 创建标注
+    map.addOverlay(marker);
+    addClickHandler(map,content,marker);	//为标注添加监听事件
+    return marker;
+}
+
 /**
  *  百度地图根据浏览器定位
  * @param map 地图变量

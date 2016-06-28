@@ -16,6 +16,22 @@ CREATE DATABASE /*!32312 IF NOT EXISTS*/`jbex` /*!40100 DEFAULT CHARACTER SET ut
 
 USE `jbex`;
 
+/*Table structure for table `administrator` */
+
+DROP TABLE IF EXISTS `administrator`;
+
+CREATE TABLE `administrator` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(10) DEFAULT NULL,
+  `username` varchar(20) NOT NULL COMMENT '用户名',
+  `password` varchar(20) NOT NULL COMMENT '密码',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+/*Data for the table `administrator` */
+
+insert  into `administrator`(`id`,`name`,`username`,`password`) values (1,'梁晓涛','admin','admin');
+
 /*Table structure for table `t_friendrequest` */
 
 DROP TABLE IF EXISTS `t_friendrequest`;

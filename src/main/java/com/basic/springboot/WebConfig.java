@@ -1,5 +1,6 @@
 package com.basic.springboot;
 
+import com.basic.springboot.interceptor.AdminSecurityInterceptor;
 import com.basic.springboot.interceptor.UserSecurityInterceptor;
 import org.springframework.boot.context.embedded.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
@@ -49,6 +50,7 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 //        registry.addInterceptor(new LocaleInterceptor());
 //        registry.addInterceptor(new ThemeInterceptor()).addPathPatterns("/**").excludePathPatterns("/admin/**");
         registry.addInterceptor(new UserSecurityInterceptor()).addPathPatterns("/send_user_*");
+        registry.addInterceptor(new AdminSecurityInterceptor()).addPathPatterns("/send_manage_*");
     }
 
     // 用于处理编码问题

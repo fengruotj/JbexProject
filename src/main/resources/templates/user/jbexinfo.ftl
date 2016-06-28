@@ -147,8 +147,8 @@
 
                     <thead>
                     <tr>
-                        <th field="user_nickname" width="50">用户名</th>
-                        <th field="email" width="50">邮箱</th>
+                        <th field="TUser.user_nickname" width="50">用户名</th>
+                        <th field="TUser.email" width="50">邮箱</th>
                         <th field="title" width="50">标题</th>
                         <th field="detail" width="50">细节</th>
                         <th field="time" width="50">时间</th>
